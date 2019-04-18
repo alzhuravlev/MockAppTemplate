@@ -14,7 +14,7 @@ android {
         applicationId "com.crane.demo.mockapptemplate"
         minSdkVersion 22
         targetSdkVersion 28
-        versionCode 1
+        versionCode vCode as Integer
         versionName "1.0"
     }
     buildTypes {
@@ -27,6 +27,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.crane:mockappcore:1.40.5'
 }
