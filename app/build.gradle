@@ -28,5 +28,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.crane:mockappcore:1.40.1'
+    implementation 'com.crane:mockappcore:1.40.5'
 }
