@@ -15,7 +15,7 @@ android {
         minSdkVersion 22
         targetSdkVersion 28
         versionCode vCode as Integer
-        versionName "1.40.7"
+        versionName "1.40.9"
     }
     buildTypes {
         release {
@@ -29,5 +29,11 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.crane:mockappcore:1.40.8'
+
+    implementation "androidx.lifecycle:lifecycle-extensions:2.0.0"
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+
+    implementation 'com.crane:mockappcore:1.40.9'
+    implementation 'com.crane:mockappannotations:1.40.9'
 }
