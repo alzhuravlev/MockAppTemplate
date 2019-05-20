@@ -15,7 +15,7 @@ android {
         minSdkVersion 22
         targetSdkVersion 28
         versionCode vCode as Integer
-        versionName "1.40.9"
+        versionName "1.40.10"
     }
     buildTypes {
         release {
@@ -34,6 +34,6 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'com.google.android.material:material:1.0.0'
 
-    implementation 'com.crane:mockappcore:1.40.9'
-    implementation 'com.crane:mockappannotations:1.40.9'
+    implementation 'com.crane:mockappcore:1.40.10'
+    implementation 'com.crane:mockappannotations:1.40.10'
 }
