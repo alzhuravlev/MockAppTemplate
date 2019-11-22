@@ -16,7 +16,5 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.crane.mockapp.core.MockAppActivity" />
-
     </application>
 </manifest>
