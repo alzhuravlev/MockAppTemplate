@@ -9,7 +9,7 @@ class LaunchActivity : MockAppActivity() {
 
     override fun resolveLayoutDescriptor(): LayoutDescriptor? {
 
-        val projects = ProjectSource.getInstance().projectModels
+        val projects = ProjectSource.getInstance().getProjectModels()
         if (projects.isEmpty())
             return null
         val project = projects[0]
